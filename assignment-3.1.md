@@ -33,7 +33,7 @@ window.Raphael.vml && function (R) {
                     var vals = [],
                         isMove = command.toLowerCase() == "m",
                         res = map[command];
-    ```
+```
     
     * good indention
     * could use more returns for white space in between satements

@@ -31,3 +31,114 @@ When you're done editing this file, save it, commit it, and push it to your "ass
 
 ## Now get to it!
 
+https://c9.io/flowerflirt44/raphael.raphaelcore.js:59
+```javascript
+ function R(first) {
+     /// function: R
+```
+
+https://c9.io/flowerflirt44/raphael.raphaelcore.js:  60
+``` javascript
+if (R.is(first, "function")) {
+/// Boolean: if
+/// function: R.is
+```
+
+https://c9.io/flowerflirt44/raphael.raphaelcore.js:  65
+``` javascript
+            var args = Array.prototype.slice.call(arguments, 0);
+            if (R.is(args[args.length - 1], "function")) {
+                var f = args.pop();
+/// variable: args
+/// Array: Array.prototype.slice.call
+/// Boolean: if true
+/// function: args.length 
+/// integer: 1
+/// Variable: f
+/// function: args.pop
+```
+
+https://c9.io/flowerflirt44/raphael.raphaelcore.js:  473
+``` javascript
+if (R.is(values, array)) {
+            var i = values.length;
+/// Boolean: if true
+/// function: R.is
+/// variable: i
+/// function: values.length 
+```
+
+https://c9.io/flowerflirt44/raphael.raphaelcore.js:  48
+``` javascript
+var rem = value % values;
+/// variable: rem
+```
+
+https://c9.io/flowerflirt44/raphael.raphaelcore.js:  523
+``` javascript
+var toHex = function (color) {
+        if (R.vml) {
+            // http://dean.edwards.name/weblog/2009/10/convert-any-colour-value-to-hex-in-msie/
+            var trim = /^\s+|\s+$/g;
+            var bod;
+/// variable: toHex
+/// function: R.vml
+/// Boolean: if
+/// variable: trim
+/// variable: bod
+```
+
+https://c9.io/flowerflirt44/raphael.raphaelcore.js:  580
+``` javascript
+if (r > 1 || g > 1 || b > 1) {
+            r /= 255;
+            g /= 255;
+            b /= 255;
+        }
+/// Boolean: if
+/// operator: >, =
+/// integer: 1, 25
+```
+
+https://c9.io/flowerflirt44/raphael.raphaelcore.js:  831
+``` javascript
+var preload = R._preload = function (src, f) {
+        var img = g.doc.createElement("img");
+/// variable: preload
+/// function: R._preload
+/// variable: img
+```
+
+https://c9.io/flowerflirt44/raphael.raphaelcore.js:  1337
+``` javascript
+function getTatLen(x1, y1, x2, y2, x3, y3, x4, y4, ll) {
+        if (ll < 0 || bezlen(x1, y1, x2, y2, x3, y3, x4, y4) < ll) {
+            return;
+        }
+        var t = 1,
+/// function: getTatLen
+/// Boolean: if
+/// integer: 11, 0
+/// operator: <, =
+```
+
+https://c9.io/flowerflirt44/raphael.raphaelcore.js:  1484
+``` javascript
+ for (var i = 0, ii = path1.length; i < ii; i++) {
+            var pi = path1[i];
+/// variable: i
+/// function: path1.length, path1
+/// operator: =, <, ++
+/// integer 0
+```
+
+https://c9.io/flowerflirt44/raphael.raphaelcore.js:  1803
+``` javascript
+var _13 = 1 / 3,
+/// variable: _13
+/// operator: =, /
+/// integer: 1, 3
+```
+
+
+

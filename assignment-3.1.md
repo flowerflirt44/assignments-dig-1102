@@ -1,4 +1,4 @@
-``` javascript
+```javascript
 
 window.Raphael.vml && function (R) {
     var has = "hasOwnProperty",
@@ -39,7 +39,7 @@ window.Raphael.vml && function (R) {
     * could use more returns for white space in between satements
     * too long or short names that are not descriptive 
     
-    ``` javascript
+    ```javascript
                     args.replace(val, function (value) {
                         if (isMove && vals.length == 2) {
                             res += vals + map[command == "m" ? "l" : "L"];
@@ -55,7 +55,7 @@ window.Raphael.vml && function (R) {
 
 * good indention and white space use with returns and spaces
 
-``` javascript
+```javascript
             var pa = command(path), p, r;
             res = [];
             for (var i = 0, ii = pa.length; i < ii; i++) {
@@ -73,7 +73,7 @@ window.Raphael.vml && function (R) {
 
 * horrible variable names not descriptive
 
-``` javascript
+```javascript 
 
         compensation = function (deg, dx, dy) {
             var m = R.matrix();
@@ -117,7 +117,7 @@ window.Raphael.vml && function (R) {
 
 * needs returns for white space instead of large blocks
 
-``` javascript
+```javascript
                 if (fillpos) {
                     c = compensation(deg, m.x(fillpos[0], fillpos[1]), m.y(fillpos[0], fillpos[1]));
                     fill.position = c.dx * y + S + c.dy * y;

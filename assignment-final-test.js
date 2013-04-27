@@ -1,7 +1,7 @@
 $var assert = require("assert"),
     hundredDoors = require("./assignment-final-prod");
 
-//Mon - still not completely understanding toggle need to try and work on it more effectivly
+// Need to try and work quicker and got up to closed/ open doors
 
 //do we have a hallway?
 assert(hundredDoors.hallway);
@@ -17,3 +17,8 @@ hundredDoors.hallway.doors.forEach(function(door){
     assert.equal(door,0);
 });
 
+//can we change the state of a door(create toggle function)?
+assert(hundredDoors.hallway.toggle);
+
+// can we change closed to open?
+assert(hundredDoors.hallway.toggle(0) === 1);

@@ -1,7 +1,7 @@
 $var assert = require("assert"),
     hundredDoors = require("./assignment-final-prod");
 
-// Need to try and work quicker and got up to closed/ open doors
+// Struggling with pass I realized I was not going baby steps but trying to do more then my question asked
 
 //do we have a hallway?
 assert(hundredDoors.hallway);
@@ -22,3 +22,6 @@ assert(hundredDoors.hallway.toggle);
 
 // can we change closed to open?
 assert(hundredDoors.hallway.toggle(0) === 1);
+
+// are all doors in the right place after the first pass?
+assert(hundredDoors.hallway.pass);

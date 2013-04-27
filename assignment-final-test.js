@@ -1,8 +1,7 @@
 $var assert = require("assert"),
     hundredDoors = require("./assignment-final-prod");
 
-// Struggling with pass I realized I was not going baby steps but trying to do more then my question asked
-
+// researching pass and still struggling to understand things such as this.map and how it effects everything
 //do we have a hallway?
 assert(hundredDoors.hallway);
 
@@ -24,4 +23,8 @@ assert(hundredDoors.hallway.toggle);
 assert(hundredDoors.hallway.toggle(0) === 1);
 
 // are all doors in the right place after the first pass?
-assert(hundredDoors.hallway.pass);
+assert(hundredDoors.hallway.pass)
+
+hundredDoors.hallway.pass().forEach( function( door ) {
+    assert.equal( door, 1);
+});

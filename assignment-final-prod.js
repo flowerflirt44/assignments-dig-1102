@@ -19,6 +19,13 @@
 module.exports = { // PROD CODE
     hallway: { 
         doors: [0,0,0,0,0],
+        toggle: function (  ) {
+            if (door===0) {
+                return 1;
+            }
+            else {
+                return 0;
+            }
             
         },
         

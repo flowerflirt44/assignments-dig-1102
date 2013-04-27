@@ -27,6 +27,11 @@ module.exports = { // PROD CODE
                 return 0;
             }
             
+        }
+        
+        pass: function () {
+            
+        }
         },
         
     }

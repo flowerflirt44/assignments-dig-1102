@@ -24,4 +24,4 @@ module.exports = { // PROD CODE
         
     }
 
-}
+}gi

@@ -1,7 +1,8 @@
 $var assert = require("assert"),
     hundredDoors = require("./assignment-final-prod");
 
-// researching pass and still struggling to understand things such as this.map and how it effects everything
+// took a while to figure out mistake but it was a comma that I was missing before the pass function
+
 //do we have a hallway?
 assert(hundredDoors.hallway);
 
